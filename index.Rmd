@@ -1,0 +1,376 @@
+---
+title: "Hello World"
+subtitle: "A brief presentation"
+author: Gabriel Nakamura
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "assets/css/my-theme.css", "assets/css/my-fonts.css", "assets/css/extra.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      # autoplay: 5000
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      slideNumberFormat: "" 
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+
+library(ymlthis)
+library(tidyverse)
+```
+
+layout: true
+
+---
+
+class: title-slide, center, bottom
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+---
+name: clouds
+class: center, middle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_general(
+    description = "How to Get Your Teaching Materials Online with R Markdown",
+    generator = "xaringan and remark.js"
+  ) %>% 
+  meta_name("github-repo" = "rstudio-education/sharing-short-notice") %>% 
+  meta_social(
+    title = "Sharing on Short Notice",
+    url = "https://rstd.io/sharing",
+    image = "https://repository-images.githubusercontent.com/248553842/408a8d80-7363-11ea-96ae-d04b664002df",
+    image_alt = "The first slide features a flying machine",
+    og_type = "website",
+    twitter_card_type = "summary_large_image"
+  )
+```
+
+---
+template: clouds
+class: top, left
+
+.pull-left[
+# .big-text[Olá!]
+# .big-text[Hello!]
+]
+
+--
+
+.pull-right[
+
+<img style="border-radius: 50%;" src="https://raw.githubusercontent.com/GabrielNakamura/talk-ufrj/master/images/avatar.png" width="350px" height="280"/>
+  
+  [`r icon::fa("github")` @GabrielNakamura](https://github.com/GabrielNakamura)  
+  [`r icon::fa("twitter")` @gabrielnakamur4](https://twitter.com/gabrielnakamur4)
+
+]
+
+???
+
+Hello everyone, I prepared this little presentation to present myself, who I am 
+and what brought me to here, in Corpus.
+
+This is me with a butterfly in my hand
+She was released and goes well, I hope
+
+
+---
+template: clouds
+
+# Who I am?
+
+???
+
+Who am I?
+
+---
+template: clouds
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+```{r whoAmI, echo=FALSE}
+ knitr::include_graphics("images/thisIsBird.jpeg")
+```
+
+
+???
+In a nutshell...
+Despite looks like a biologist in a field work 
+I am not much into the organisms, and my taxonomic 
+knowledge is better represented by this Tweet
+
+---
+class: middle, center
+
+<div class="flex" style="margin: 0 1em;">
+  <div class="column">
+    <h3> Homo sapiens <h3>
+    <img src="images/skeleton.png" style="width: 100%;">
+  </div>
+  
+???
+
+Just a regular person 
+  
+--
+
+   <div class="column"style="margin: 0 1em;">
+    <h3> Sports enthusiast </h3>
+    <img src="images/volleyball.jpg" style="width: 100%;">
+  </div>
+  
+
+???
+
+That more recently moved all the way from BR to US
+
+---
+class: middle, center
+
+<div class="flex" style="margin: 0 1em;">
+  <div class="column">
+    <h3> Homo Sapiens </h3>
+    <img src="images/skeleton.png" style="width: 100%;">
+  </div>
+  
+  <div class="column"style="margin: 0 1em;">
+    <h3> Sports enthusiast </h3>
+    <img src="images/volleyball.jpg" style="">
+  </div>
+  
+
+--
+
+<div class="column"style="margin: 0 1em;">
+    <h3> Bike </h3>
+    <img src="images/bike.png" style="">
+  </div>
+  
+--
+
+<div class="column"style="margin: 0 1em;">
+    <h3> Music </h3>
+    <img src="images/guitar.jpg" style="">
+  </div>
+
+--
+
+<div class="column"style="margin: 0 1em;">
+    <h3> Photograph </h3>
+    <img src="images/photo.png" style="">
+  </div>
+
+
+???
+
+But they're stuck on your computer, and you need to share them easily others with out filling up their inboxes.
+  
+--
+  <div class="column" style="margin: 0 1em;">
+    <h3> cooking </h3>
+    <img src="images/cooking.png"  style="">
+  </div>
+</div>
+
+???
+
+And--- you probably have a new classroom space that looks like this-- so sharing needs to be done 100% online
+
+---
+class: center
+background-image: url("images/brazil-map.jpeg")
+background-size: contain
+
+???
+
+Right now I´m felling exactly like this, 
+
+Everything seems to need my attention,
+
+but I cannot do everything.
+
+---
+class: center
+background-image: url("images/football.jpg")
+background-size: cover
+
+
+???
+
+Specifically from this State, called Mato Grosso do Sul
+
+---
+class: center
+background-image: url("images/nordeste.jpg")
+background-size: cover
+
+---
+class: center
+background-image: url("images/canyons.jpg")
+background-size: cover
+
+---
+class: center
+background-image: url("images/MS-BR.jpeg")
+background-size: contain
+
+???
+
+Specifically from this State, called Mato Grosso do Sul
+
+---
+class: center
+background-image: url("images/natural-beauty-MS.png")
+background-size: contain
+
+???
+
+Specifically from this State, called Mato Grosso do Sul
+
+---
+class: center
+background-image: url("images/MS.jpg")
+background-size: cover
+
+???
+
+Specifically from this State, called Mato Grosso do Sul
+
+---
+name: clouds
+class: center, middle
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+# Why am I here?
+
+---
+class: center
+background-image: url(images/meme_PHD.jpeg)
+background-size: contain
+
+---
+class: middle, center
+
+<div class="flex" style="margin: 0 1em;">
+  <div class="column">
+    <h3> Graduation in Biology </h3>
+    <img src="images/graduation.png" style="width: 100%;">
+  </div>
+  
+--
+  
+  <div class="column"style="margin: 0 1em;">
+    <h3> MsC Ecology and conservarion </h3>
+    <img src="images/fish.png" style="">
+  </div>
+  
+
+--
+
+<div class="column"style="margin: 0 1em;">
+    <h3> PhD. Ecology </h3>
+    <img src="images/phd.png" style="">
+  </div>
+  
+--
+
+<div class="column"style="margin: 0 1em;">
+    <h3> Postdoc UFRGS </h3>
+    <img src="images/postdoc-illustration.png" style="">
+  </div>
+
+
+???
+
+And--- you probably have a new classroom space that looks like this-- so sharing needs to be done 100% online
+
+---
+
+## PhD. Dimensionality of Biodiversity
+
+.pull-left[
+```{r echo=FALSE}
+ knitr::include_graphics("images/dimensionality.png")
+```
+]
+--
+
+.center2[
+- Dimensionality concept .green[updated]
+
+- R package [.green[`Dimensionality`]](https://github.com/GabrielNakamura/Dimensionality_package)
+]
+
+
+.footnote[
+Ecography paper [here](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04574)
+]
+
+---
+
+## PhD. Development of New Beta Diversity Indexes
+
+.pull-left[
+```{r echo=FALSE}
+ knitr::include_graphics("images/phd.png")
+```
+]
+--
+
+.center2[
+- Beta diversity metrics that include .green[Phylogenetic, and
+Functional dimensions]
+
+- Also available in R package [.green[`Dimensionality`]](https://github.com/GabrielNakamura/Dimensionality_package)
+]
+
+.footnote[
+Ecology paper [here](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3122)
+]
+
+???
+
+Proposition of new beta diversity metrics
+
+---
+template: clouds
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+---
+template: clouds
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
+
+## Why am I here?
+
+<img style="border-radius: 50%;" src="images/life-after-phd.png" width="450px" height="280"/>
+
+```{r, echo=FALSE}
+ knitr::include_graphics("images/life-after-phd.png")
+```
+
+---
+
