@@ -368,9 +368,47 @@ background-size: cover
 
 <img style="border-radius: 50%;" src="images/life-after-phd.png" width="450px" height="280"/>
 
-```{r, echo=FALSE}
- knitr::include_graphics("images/life-after-phd.png")
+---
+
+## Development of Methods in Biogeography 
+
+.pull-left[
+```{r echo=FALSE, out.width="100%"}
+ knitr::include_graphics("images/Phy_endemism.png")
 ```
+```{r echo=FALSE, out.width="100%"}
+knitr::include_graphics("images/Jetz_age_arrival.png")
+```
+]
+
+--
+
+.center2[
+- Development of .green[Model-based] Phylogenetic metrics
+
+- Unification Macroecology, Macroevolution and Community Ecology
+]
+
+
+.footnote[GitHub repo [here](https://github.com/GabrielNakamura/DivB_metrics)]
 
 ---
+
+## Development of Methods in Biogeography
+
+.upperleft[
+```{r echo=FALSE, out.width="23%"}
+ knitr::include_graphics("images/Logo_FishPhyloMaker.png")
+```
+]
+
+--
+
+.bottomleft[
+```{r echo=FALSE, out.width="50%"}
+ knitr::include_graphics("images/world_map_DarwinianShort.png")
+```
+]
+
+
 

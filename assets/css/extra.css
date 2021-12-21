@@ -10,3 +10,24 @@
 .green{
   color: green;
 }
+
+.bottomright {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+}
+
+.uppeleft {
+  margin: 0;
+  position: absolute;
+  top: -60%;
+  left: -60%;
+}
+
+.bottomleft {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: -60%;
+}
