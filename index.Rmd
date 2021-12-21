@@ -264,11 +264,6 @@ background-size: cover
 # Why am I here?
 
 ---
-class: center
-background-image: url(images/meme_PHD.jpeg)
-background-size: contain
-
----
 class: middle, center
 
 <div class="flex" style="margin: 0 1em;">
@@ -313,17 +308,18 @@ And--- you probably have a new classroom space that looks like this-- so sharing
  knitr::include_graphics("images/dimensionality.png")
 ```
 ]
+
+.footnote[
+Ecography paper [here](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04574)
+]
+
+
 --
 
 .center2[
 - Dimensionality concept .green[updated]
 
 - R package [.green[`Dimensionality`]](https://github.com/GabrielNakamura/Dimensionality_package)
-]
-
-
-.footnote[
-Ecography paper [here](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04574)
 ]
 
 ---
@@ -335,6 +331,11 @@ Ecography paper [here](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.045
  knitr::include_graphics("images/phd.png")
 ```
 ]
+
+.footnote[
+Ecology paper [here](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3122)
+]
+
 --
 
 .center2[
@@ -344,9 +345,6 @@ Functional dimensions]
 - Also available in R package [.green[`Dimensionality`]](https://github.com/GabrielNakamura/Dimensionality_package)
 ]
 
-.footnote[
-Ecology paper [here](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3122)
-]
 
 ???
 
@@ -373,10 +371,10 @@ background-size: cover
 ## Development of Methods in Biogeography 
 
 .pull-left[
-```{r echo=FALSE, out.width="100%"}
+```{r echo=FALSE, out.width="90%"}
  knitr::include_graphics("images/Phy_endemism.png")
 ```
-```{r echo=FALSE, out.width="100%"}
+```{r echo=FALSE, out.width="90%"}
 knitr::include_graphics("images/Jetz_age_arrival.png")
 ```
 ]
@@ -390,8 +388,6 @@ knitr::include_graphics("images/Jetz_age_arrival.png")
 
 - Unification Macroecology, Macroevolution and Community Ecology
 ]
-
-
 
 ---
 
