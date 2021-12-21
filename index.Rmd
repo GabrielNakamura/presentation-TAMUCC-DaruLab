@@ -381,6 +381,8 @@ knitr::include_graphics("images/Jetz_age_arrival.png")
 ```
 ]
 
+.footnote[GitHub repo [here](https://github.com/GabrielNakamura/DivB_metrics)]
+
 --
 
 .center2[
@@ -390,25 +392,44 @@ knitr::include_graphics("images/Jetz_age_arrival.png")
 ]
 
 
-.footnote[GitHub repo [here](https://github.com/GabrielNakamura/DivB_metrics)]
 
 ---
 
 ## Development of Methods in Biogeography
 
-.upperleft[
-```{r echo=FALSE, out.width="23%"}
+.pull-left[
+```{r echo=FALSE, out.width="50%"}
  knitr::include_graphics("images/Logo_FishPhyloMaker.png")
 ```
 ]
 
---
+---
 
-.bottomleft[
-```{r echo=FALSE, out.width="50%"}
- knitr::include_graphics("images/world_map_DarwinianShort.png")
+## Development of Methods in Biogeography
+
+.pull-left[
+.center[
+```{r echo=FALSE, out.width="30%"}
+ knitr::include_graphics("images/Logo_FishPhyloMaker.png")
 ```
 ]
 
+```{r echo=FALSE, out.width="100%"}
+ knitr::include_graphics("images/world_map_DarwinianShort.png")
+```
+
+]
+
+.footnote[
+Ecological informatics [paper here](https://www.sciencedirect.com/science/article/abs/pii/S1574954121002727)
+]
+
+--
+
+.center2[
+- Fast and reliable way to produce phylogenies
+
+- Computation of .green[Darwinian Shortfalls]
+]
 
 

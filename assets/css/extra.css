@@ -11,23 +11,18 @@
   color: green;
 }
 
-.bottomright {
-  margin: 0;
-  position: absolute;
-  top: 60%;
-  left: 70%;
-}
-
-.uppeleft {
-  margin: 0;
-  position: absolute;
-  top: -60%;
-  left: -60%;
+.upperleft {
+    margin: 0;
+    position: absolute;
+    top: auto;
+    left: auto;
+    transform: translate(-15%, -21%);
 }
 
 .bottomleft {
-  margin: 0;
-  position: absolute;
-  top: 60%;
-  left: -60%;
+    margin: 0;
+    position: absolute;
+    top: auto;
+    left: auto;
+    transform: translate(-4%, 39%);
 }
