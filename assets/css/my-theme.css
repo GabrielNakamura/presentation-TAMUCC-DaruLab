@@ -174,7 +174,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
 @page { margin: 0; }
 
 .title-slide {
-  background-image: url(../../images/cover.jpg);
+  background-image: url(../../images/cover.png);
   background-position: 55% 5%;
   background-size: 55%;
   background-color: #e7ebec;
