@@ -1,7 +1,7 @@
 ---
-title: "Hello World"
-subtitle: "A brief presentation"
-author: Gabriel Nakamura
+title: "Daru's lab pesentation"
+subtitle: "Gabriel Nakamura"
+author: Postdoctoral Research Associate (NSF Phyloregion Project)
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -64,9 +64,7 @@ meta() %>%
 ```
 
 ???
-Thank you everyone for the presence, today is my official presentation for you all,
-I'm excited to know you all, even from the screem computer, but that is the safest way that we 
-can do this at this moment.
+Thank you everyone for the presence, today is my official presentation for you all, some of you I already know, from the digital world and the scream computer, and now finally we have the opportunity to a in person meeting. Today I will give you a brief presentation of who I am, my research interesets and what I'm gonna do here at Texas A&M for the next three years.
 
 ---
 template: clouds
@@ -79,7 +77,7 @@ class: top, left
 
 ???
 
-Hello and Ola, thats the way that we say hello in my birth contry that is Brazil
+Hello and Ola, thats the way that we say hello in my birth country that is Brazil
 
 
 --
@@ -89,18 +87,17 @@ Hello and Ola, thats the way that we say hello in my birth contry that is Brazil
 <img style="border-radius: 50%;" src="https://raw.githubusercontent.com/GabrielNakamura/talk-ufrj/master/images/avatar.png" width="350px" height="280"/>
   
   [`r icon::fa("github")` @GabrielNakamura](https://github.com/GabrielNakamura)  
+  
+  [`r icon::fa("door-open")` Personal website](https://gabrielnakamura.netlify.app/)
+  
   [`r icon::fa("twitter")` @gabrielnakamur4](https://twitter.com/gabrielnakamur4)
+  
 
 ]
 
 ???
 
-So, I prepared this presentation to you. Hope that with this you can know a litle bit about me, 
-who I am, both as a person and a researcher, and what brought me to here, in Corpus.
-
-Despite to use this photo on my presentations you will realize that I'm not much into the field work 
-to answer the questions that I try to answer in my research projects, but doesn't mean that I don't like to
-be in contact with nature.
+For those who become interested in my work you can find a little bit more in my website and github account, and of course catch me up here at A&M
 
 
 ---
@@ -110,23 +107,7 @@ template: clouds
 
 ???
 
-First, a more personal perspective of Who I am when I'm outside the walls of university...
-
----
-template: clouds
-class: middle, center
-background-image: url(images/Clouds.jpg)
-background-size: cover
-
-```{r whoAmI, echo=FALSE}
- knitr::include_graphics("images/thisIsBird.jpeg")
-```
-
-
-???
-
-I'm a biologist, but as a Biologist this tweet defines much of who I am.
-I really love nature and be in close contact, but I'm really dreadful at identifications
+First, a little bit about who I'm outside the walls of university...
 
 ---
 class: middle, center
@@ -139,7 +120,7 @@ class: middle, center
   
 ???
 
-I consider myself just a regular person 
+Generally speaking I'm just a regular person with some interests like
   
 --
 
@@ -151,7 +132,7 @@ I consider myself just a regular person
 
 ???
 
-In my free time I like to have physical exercices. I had a scholarship to play volleyball in Brazil during my high school years, and this is the sport that I love to pratice untill now when I have the opportunity
+In my free time I like to have physical exercises. I had a scholarship to play volleyball in Brazil during my high school years, and this is the sport that I like to play when I have the opportunity
 
 ---
 class: middle, center
@@ -177,8 +158,8 @@ class: middle, center
   
 ???
 
-I also love to ride by bike, it's help me to moving arround the city and at the same time have some
-exercise, bicycle used to be for me my preferred main of transportation in all places that I lived. 
+I also enjoy to ride my bike, it's help me to moving around the city and at the same time have some
+exercise. 
 Hope that I can find one here in Corpus soon
   
 --
@@ -190,8 +171,7 @@ Hope that I can find one here in Corpus soon
 
 ???
 
-I also like music, specially guitar. I just play for fun, it helps me to clean my mind, unfortunatelly 
-I think that is not the same for my neibours.
+I also like music, specially guitar. Like to play doesn't mean that I know to play, so, I just play for fun, it helps me to clean my mind. Hope that my neighbors understand it.
 
 --
 
@@ -203,9 +183,8 @@ I think that is not the same for my neibours.
 
 ???
 
-I'm also a enthusiast of photograph, whenever I can I grab my camera and go outside to take some photos. I
-used to maintain I page with my photos on Flickr. My camera and my guitar were two of the few things that
-I brought with me from Brazil
+I'm also a enthusiast of photographs, whenever I can I grab my camera and go outside to take some photos. I
+used to maintain I page with my photos on Flickr.
   
 --
   <div class="column" style="margin: 0 1em;">
@@ -226,7 +205,7 @@ background-size: contain
 
 ???
 
-As I said, I'm from Brazil, the biggest country in South America.
+As I said, I'm from Brazil
 
 ---
 class: center
@@ -236,8 +215,8 @@ background-size: cover
 
 ???
 
-If I can list things for which Brazil is known abroad, maybe the first thing is the footbal.
-Most of brazilians love this game and our national squad won five times the World Cup.
+If I can list things for which Brazil is known abroad, maybe the first thing is the football.
+Most of brazilian people love this game and our national squad had won five times the World Cup.
 
 ---
 class: center
@@ -275,17 +254,9 @@ background-size: contain
 
 ???
 
-That is also known by its exhuberant nature, particularly its rivers with crystaline waters. This is one 
+That is also known by its exuberant nature, particularly its rivers with crystalline waters. This is one 
 of them that I had the luck to known.
 
----
-class: center
-background-image: url("images/MS.jpg")
-background-size: cover
-
-???
-
-And more specifically, this is a sunset view of my hometown, Tres Lagoas, something like Three Lake City.
 
 ---
 
@@ -296,7 +267,7 @@ background-size: cover
 
 ???
 
-So, here I fineshed the nostalgic part of this presentation, and
+So, here I finished the nostalgic part of this presentation, and
 now a little bit of my academic background
 
 ---
@@ -306,55 +277,19 @@ class: center, middle
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-# Before TAMUCC...
-
-???
-What do I did before land here in TAMUCC
-
----
-class: middle, center
-
-<div class="flex" style="margin: 0 1em;">
-  <div class="column">
-    <h3> Graduation in Biology </h3>
-    <img src="images/graduation.png" style="width: 100%;">
-  </div>
-
-???
-
-I have a degree in Biological Sciences in the Federal University of Mato Grosso do Sul in Brazil
-
---
-  
-  <div class="column"style="margin: 0 1em;">
-    <h3> MsC Ecology and conservarion </h3>
-    <img src="images/fish.png" style="">
-  </div>
-  
-???
-
-After that I earned my master degree at the same institution in Brazil, in which I investigated the factors
-influencing the assembly of freshwater fish communities. During my master's thesis I started to use be familiar with numerical tools to detect patterns and processess acting in ecological communities, like
-different diversity metrics, mathematical models and programming in R. 
-I defended my master's thesis by presenting a new method to quantify the dimensionality of diversity in
-freshwater fish communities.
+## What influence the distribution of biological diversity on earth?
 
 --
 
-<div class="column"style="margin: 0 1em;">
-    <h3> PhD. Ecology </h3>
-    <img src="images/phd.png" style="">
-  </div>
+### Reliable description of biodiversity patterns accross space and time
 
-???
+--
 
-Then, in 2015 I started my Phd in Ecology at Federal University of Rio Grande do Sul in the south region
-of Brazil. Through 2015 to 2019 my research was guided by trying to answer which do we mean by biological 
-diversity? 
+### Search for the factors that generate these patterns
 
 ---
 
-## PhD. Dimensionality of Biodiversity
+## Tools to describe different components of biodiversity (Ph.D)
 
 .pull-left[
 ```{r echo=FALSE}
@@ -366,26 +301,27 @@ diversity?
 Ecography paper [here](https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.04574)
 ]
 
+???
+So, during my Ph.D I developed numerical tools to describe different components of biological diversity, with special focus on the development of numerical methods that allowed to describe alpha and beta diversity patterns.
 
 --
 
 .center2[
-- Dimensionality concept .green[updated]
+- Dimensionality concept 
 
 - R package [.green[`Dimensionality`]](https://github.com/GabrielNakamura/Dimensionality_package)
 ]
 
 ???
 
-Particularly, during four years I've tried to understand how biodiversity is distributed over space, 
-and how the best ways to measure it, so I developed a framework that helped in show which dimensions of biological diversity consist in the most important to capture the information contained in communities.
+Particularly, I developed a tool that allows to identify how to measure biological diversity when the focus is to maximize the amount o information present in ecological assemblages.
 To do this I relied on the dimensionality concept and developed a updated framework to measure it.
 This framework is described in that article and a R package to calculate the metrics are available in this
 package.
 
 ---
 
-## PhD. Development of New Beta Diversity Indexes
+## Tools to describe different components of biodiversity (Ph.D)
 
 .pull-left[
 ```{r echo=FALSE}
@@ -409,44 +345,9 @@ Functional dimensions]
 
 ???
 
-Still with the aim to effectively represent biological diversity, I created new metrics to measure 
-different components of beta diversity. Basically we extent a proposition from Legendre and De caceres
+Still with the aim to effectively represent biological diversity, I also developed a comprehensive framework to capture different components of beta diversity. Basically we extent a proposition from Legendre and De Caceres
 proposed in 2010 to accommodate different facets of beta diversity, like phylogenetic and functional in 
-the same framework. This work is avaiable in this paper in Ecology journal and the metrics can be calculated
-using the same package Dimensionality.
-
----
-class: middle, center
-
-<div class="flex" style="margin: 0 1em;">
-  <div class="column">
-    <h3> Graduation in Biology </h3>
-    <img src="images/graduation.png" style="width: 100%;">
-  </div>
-
-  <div class="column"style="margin: 0 1em;">
-    <h3> MsC Ecology and conservarion </h3>
-    <img src="images/fish.png" style="">
-  </div>
-  
-
-<div class="column"style="margin: 0 1em;">
-    <h3> PhD. Ecology </h3>
-    <img src="images/phd.png" style="">
-  </div>
-  
-
-<div class="column"style="margin: 0 1em;">
-    <h3> Postdoc UFRGS </h3>
-    <img src="images/postdoc-illustration.png" style="">
-  </div>
-
-
----
-template: clouds
-class: middle, center
-background-image: url(images/Clouds.jpg)
-background-size: cover
+the same framework. This work is available in this paper in Ecology journal and the metrics can be calculated using the same package Dimensionality that I mentioned early.
 
 ---
 template: clouds2
@@ -454,25 +355,30 @@ class: middle, center
 background-image: url(images/Clouds.jpg)
 background-size: cover
 
-## From patterns to process
+## What influence the distribution of biological diversity on earth?
+
+???
+As I said, capture effectively biodiversity patterns is just one 
+step towards the understanding of the causes of biodiversity distribution on earth
 
 --
 
-### How historical factors affect the current distribition of biological diversity?
+### From patterns to process: searching for the causes
+
+???
+To fully answer this question we need to explain biodiversity patterns by searching for what generates it
+
+--
+
+#### How historical factors affect the current distribition of biological diversity?
+
+???
+And in the last year this is what I'm trying to do, specifically I'm interested in understand how processes associated with speciation and historical dispersal are responsible to generate the current patterns of
+distribution in biological diversity
 
 ---
-template: clouds2
-class: middle, center
-background-image: url(images/Clouds.jpg)
-background-size: cover
 
-# After PhD
-
-<img style="border-radius: 50%;" src="images/life-after-phd.png" width="450px" height="280"/>
-
----
-
-## Development of Methods in Biogeography 
+## Development of Methods in Historical Biogeography - Ongoing
 
 .pull-left[
 ```{r echo=FALSE, out.width="90%"}
@@ -485,6 +391,10 @@ knitr::include_graphics("images/Jetz_age_arrival.png")
 
 ]
 
+???
+Now I'm developing methods in historical biogeography that disentangle the importance of in situ speciation
+and historical dispersal to generate spatial patterns in Phylogenetic diversity of assemblages
+
 --
 
 .center2[
@@ -495,55 +405,56 @@ knitr::include_graphics("images/Jetz_age_arrival.png")
 
 ???
 
-Since my training were basically based in Community ecology theory and methods, I started to note that 
-most of the metrics that we use in this field cannot be used to differentiate between contemporary and 
-historical process acting on the assembly of community. Thus, to tackle this issue, I started to adapt the 
-common metrics used in community ecology, like PD and PE, to be able to capture historical process. 
+Briefly I started to adapt common metrics used in community ecology, like PD and PE, and merge this metrics with macroevolutionary models, like ancestral area reconstruction, to be able to capture historical process.
 
-This was done by coupling these metrics with methods of ancestral area reconstruction. This allowed to 
-decompose those metrics in a portion that represent the diversity generated by historical process like in-situ diversification and historical dispersal.
-
-For those who want to see more about the technical details, you can access github codes for this project
-
+For those who want to see more about the technical details, you can access github codes for this project and the package that Im calling, just for now, as Rrodotus.
 
 ---
+template: clouds2
+class: middle, center
+background-image: url(images/Clouds.jpg)
+background-size: cover
 
-## Development of Methods in Biogeography
+## Biologically induced Side-effects 
 
-.pull-left[
-```{r echo=FALSE, out.width="50%"}
- knitr::include_graphics("images/Logo_FishPhyloMaker.png")
-```
-]
+???
+Like in a trip, the final destination is the objective, but in the middle of it you realize that there is a lot of other nice things that happen in the route
 
 ---
+class: middle, center
 
-## Development of Methods in Biogeography
+## R packages
 
-.pull-left[
-.center[
-```{r echo=FALSE, out.width="30%"}
- knitr::include_graphics("images/Logo_FishPhyloMaker.png")
-```
-]
-
-```{r echo=FALSE, out.width="100%"}
- knitr::include_graphics("images/world_map_DarwinianShort.png")
-```
-
-]
-
-.footnote[
-Ecological informatics [paper here](https://www.sciencedirect.com/science/article/abs/pii/S1574954121002727)
-]
+<div class="flex" style="margin: 0 1em;">
+  <div class="column">
+    <h3> FishPhyloMaker </h3>
+    <img src="images/Logo_FishPhyloMaker.png" style="width: 100%;">
+  </div>
+  
+???
+In my personal trip to find the answer for what influence biodiversity patterns in space and time I found myself developing some R packages, particularly related to manipulation of phylogenetic information, like 
+FishPhyloMaker, that allows to obtain phylogenetic trees for fish species, check scientific names and calculate Darwinian shortfalls.
 
 --
 
-.center2[
-- Fast and reliable way to produce phylogenies
+<div class="column"style="margin: 0 1em;">
+    <h3> naturaList </h3>
+    <img src="images/logo_naturaList_2.png" style="">
+  </div>
+  
+???
+naturaList, with a series of spatial tools and for occurrence records and check procedures for taxonomic identification
 
-- Computation of .green[Darwinian Shortfalls]
-]
+--
+
+<div class="column"style="margin: 0 1em;">
+    <h3> mcfly </h3>
+    <img src="images/mcfly.png" style="">
+  </div>
+
+
+???
+And mcfly, to model the effects of selection in species diversity in metacommunities
 
 ---
 template: clouds2
@@ -553,14 +464,29 @@ background-size: cover
 
 # Now in TAMUCC...
 
-
 ---
+
+class: middle, center
 
 ## Development of biogeographical methods
 
-- Still working on the development of biogeographical inferences tools in the context of Bioregion 
-framework. 
+<div class="flex" style="margin: 0 1em;">
+  <div class="column">
+    <h3> Phyloregion </h3>
+    <img src="images/logo.png" style="width: 100%;">
+  </div>
+  
+???
+So, now my aim here is to improve the tools presented n phyloregion package
 
-- Support graduate and undergrad students in their tasks
+--
 
-- Develop visual tools for biogeographical inference through shiny applications
+<div class="column"style="margin: 0 1em;">
+    <h3> teaching </h3>
+    <img src="images/graduation.png" style="">
+  </div>
+  
+???
+but also, as far as I can, I want to help undergrad and graduate students, I like to share and help whenever I can, I believe that 
+we always have things to learn from other in the teaching proccess 
+
